@@ -8,22 +8,22 @@
   <title>PRODUCT MANAGEMENT</title>
   <!-- Iconic Fonts -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="{{ asset('assets/vendors/iconic-fonts/font-awesome/css/all.min.css') }}" rel="stylesheet">
-  <link rel="stylesheet" href="{{ asset('assets/vendors/iconic-fonts/flat-icons/flaticon.css') }}">
-  <link rel="stylesheet" href="{{ asset('assets/vendors/iconic-fonts/cryptocoins/cryptocoins.css') }}">
-  <link rel="stylesheet" href="{{ asset('assets/vendors/iconic-fonts/cryptocoins/cryptocoins-colors.css') }}">
+  <link href="{{ asset('vendors/iconic-fonts/font-awesome/css/all.min.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('vendors/iconic-fonts/flat-icons/flaticon.css') }}">
+  <link rel="stylesheet" href="{{ asset('vendors/iconic-fonts/cryptocoins/cryptocoins.css') }}">
+  <link rel="stylesheet" href="{{ asset('vendors/iconic-fonts/cryptocoins/cryptocoins-colors.css') }}">
   <!-- Bootstrap core CSS -->
-  <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
   <!-- jQuery UI -->
-  <link href="{{ asset('assets/css/jquery-ui.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/jquery-ui.min.css') }}" rel="stylesheet">
   <!-- Page Specific Css (Datatables.css) -->
-  <link href="{{ asset('assets/css/datatables.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/datatables.min.css') }}" rel="stylesheet">
   <!-- Page Specific CSS (Slick Slider.css) -->
-  <link href="{{ asset('assets/css/slick.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/slick.css') }}" rel="stylesheet">
   <!-- mednalytics styles -->
-  <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/style.css') }}" rel="stylesheet">
   <!-- Page Specific CSS (Morris Charts.css) -->
-  <link href="{{ asset('assets/css/morris.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/morris.css') }}" rel="stylesheet">
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
 </head>
@@ -381,29 +381,29 @@
     </div>
   </div>
     <!-- Global Required Scripts Start -->
-            <script src="{{ asset('assets/js/jquery-3.3.1.min.js')}}"></script>
-            <script src="{{ asset('assets/js/popper.min.js')}}"></script>
-            <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-            <script src="{{ asset('assets/js/perfect-scrollbar.js') }}"></script>
+            <script src="{{ asset('js/jquery-3.3.1.min.js')}}"></script>
+            <script src="{{ asset('js/popper.min.js')}}"></script>
+            <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+            <script src="{{ asset('js/perfect-scrollbar.js') }}"></script>
             <!-- Global Required Scripts End -->
-            <script src="{{ asset('assets/js/jquery-ui.min.js') }}"></script>
-            <script src="{{ asset('assets/js/d3.v3.min.js') }}"></script>
-            <script src="{{ asset('assets/js/topojson.v1.min.js') }}"></script>
+            <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
+            <script src="{{ asset('js/d3.v3.min.js') }}"></script>
+            <script src="{{ asset('js/topojson.v1.min.js') }}"></script>
             <!-- Page Specific Scripts Start -->
-            <script src="{{ asset('assets/js/datamaps.all.min.js') }}"></script>
-            <script src="{{ asset('assets/js/slick.min.js') }}"></script>
-            <script src="{{ asset('assets/js/moment.js') }}"></script>
-            <script src="{{ asset('assets/js/jquery.webticker.min.js') }}"></script>
-            <script src="{{ asset('assets/js/Chart.bundle.min.js') }}"></script>
-            <!-- <script src="{{ asset('assets/public/assets/js/index-chart.js') }}"></script> -->
-            <script src="{{ asset('assets/js/Chart.Financial.js') }}"></script>
-            <script src ="{{asset('assets/js/index-chart.js')}}"></script>
-            <script src="{{ asset('assets/js/datatables.min.js') }}"></script>
-            <script src ="{{asset('assets/js/data-tables.js')}}"></script>
+            <script src="{{ asset('js/datamaps.all.min.js') }}"></script>
+            <script src="{{ asset('js/slick.min.js') }}"></script>
+            <script src="{{ asset('js/moment.js') }}"></script>
+            <script src="{{ asset('js/jquery.webticker.min.js') }}"></script>
+            <script src="{{ asset('js/Chart.bundle.min.js') }}"></script>
+            <!-- <script src="{{ asset('public/js/index-chart.js') }}"></script> -->
+            <script src="{{ asset('js/Chart.Financial.js') }}"></script>
+            <script src ="{{asset('js/index-chart.js')}}"></script>
+            <script src="{{ asset('js/datatables.min.js') }}"></script>
+            <script src ="{{asset('js/data-tables.js')}}"></script>
 
-            <script src="{{ asset('assets/js/calendar.js') }}"></script>
-            <script src="{{ asset('assets/js/framework.js') }}"></script>
-            <script src="{{ asset('assets/js/settings.js') }}"></script>
+            <script src="{{ asset('js/calendar.js') }}"></script>
+            <script src="{{ asset('js/framework.js') }}"></script>
+            <script src="{{ asset('js/settings.js') }}"></script>
             <script>
             $(document).on('click', '.delete', function (e) {
                 var confirmed = confirm("Are you sure you want to delete this record ?");
