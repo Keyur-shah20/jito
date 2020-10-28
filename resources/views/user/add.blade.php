@@ -37,8 +37,8 @@
         @endif
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb pl-0">
-              <li class="breadcrumb-item"><a href="{{url('home')}}"><i class="material-icons">home</i> Home</a></li>
-              <li class="breadcrumb-item" aria-current="page"><a href="{{url('user')}}">User List</a></li>
+              <li class="breadcrumb-item"><a href="{{url('admin/home')}}"><i class="material-icons">home</i> Home</a></li>
+              <li class="breadcrumb-item" aria-current="page"><a href="{{url('admin/user')}}">User List</a></li>
               <li class="breadcrumb-item active" aria-current="page">Add User</li>
             </ol>
           </nav>
@@ -49,11 +49,11 @@
           <div class="ms-panel">
             <div class="ms-panel-header  ms-panel-custome">
               <h6>Add User</h6>
-              <a href="{{url('user')}}" class="ms-text-primary">User List</a>
+              <a href="{{url('admin/user')}}" class="ms-text-primary">User List</a>
             </div>
             <div class="ms-panel-body">
               
-        <form method="post" action="{{url('user/save')}}">
+        <form method="post" action="{{url('admin/user/save')}}">
             {{csrf_field()}}
             <div class="form-group has-feedback">
                 <div class="row">

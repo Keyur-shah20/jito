@@ -28,11 +28,11 @@ class RegisterController extends Controller
             ]);
             if (!empty($user)) {
                 $message = trans('messages.registered');
-                    return redirect('/register')->with('success_msg', $message);
+                    return redirect('admin/register')->with('success_msg', $message);
             }
         } catch (\Exception $e) {
             Log::error(__CLASS__ . "::" . __METHOD__ . "  " . $e->getMessage() . "on line" . $e->getLine());
         }
-        return redirect('/register')->with('error_msg', $message);
+        return redirect('admin/register')->with('error_msg', $message);
     }
 }

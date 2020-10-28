@@ -31,12 +31,12 @@ class UserController extends Controller
             ]);
             if (!empty($user)) {
                 $message = trans('messages.registered');
-                    return redirect('/user')->with('success_msg', $message);
+                    return redirect('admin/user')->with('success_msg', $message);
             }
         } catch (\Exception $e) {
             Log::error(__CLASS__ . "::" . __METHOD__ . "  " . $e->getMessage() . "on line" . $e->getLine());
         }
-        return redirect('/user')->with('error_msg', $message);
+        return redirect('admin/user')->with('error_msg', $message);
     }
 
     public function edit(Request $request){

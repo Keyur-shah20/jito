@@ -80,7 +80,7 @@
               <a class="media fs-14 p-2" href="pages/prebuilt-pages/lock-screen.html"> <span><i class="flaticon-security mr-2"></i> Lock</span> </a>
             </li> -->
             <li class="dropdown-menu-footer">
-              <a class="media fs-14 p-2" href="{{url('logout')}}"> <span><i class="flaticon-shut-down mr-2"></i> Logout</span> </a>
+              <a class="media fs-14 p-2" href="{{url('admin/logout')}}"> <span><i class="flaticon-shut-down mr-2"></i> Logout</span> </a>
             </li>
           </ul>
         </li>

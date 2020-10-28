@@ -12,7 +12,7 @@
     <ul class="accordion ms-main-aside fs-14" id="side-nav-accordion">
       <!-- Dashboard -->
       <li class="menu-item">
-        <a href="{{url('home')}}">
+        <a href="{{url('admin/home')}}">
           <span><i class="material-icons fs-16">dashboard</i>Dashboard </span>
         </a>
         <!-- <ul id="dashboard" class="collapse" aria-labelledby="dashboard" data-parent="#side-nav-accordion">
@@ -26,30 +26,43 @@
           <span><i class="fas fa-user"></i>User Management</span>
         </a>
         <ul id="doctor" class="collapse" aria-labelledby="doctor" data-parent="#side-nav-accordion">
-          <li> <a href="{{url('user')}}">User List</a> </li>
+          <li> <a href="{{url('admin/user')}}">User List</a> </li>
         </ul>
       </li>
       <!-- User -->
+
       <!-- Product -->
-      <li class="menu-item">
+     <!--  <li class="menu-item">
         <a href="#" class="has-chevron" data-toggle="collapse" data-target="#patient" aria-expanded="false" aria-controls="patient">
           <span><i class="fas fa-user"></i>Product Management</span>
         </a>
         <ul id="patient" class="collapse" aria-labelledby="patient" data-parent="#side-nav-accordion">
-          <li> <a href="{{url('products')}}">Product List</a> </li>
+          <li> <a href="{{url('admin/products')}}">Product List</a> </li>
         </ul>
-      </li>
+      </li> -->
       <!-- /Product -->
+
+
       <!-- Category -->
-      <li class="menu-item">
+     <!--  <li class="menu-item">
         <a href="#" class="has-chevron" data-toggle="collapse" data-target="#department" aria-expanded="false" aria-controls="department">
           <span><i class="fas fa-sitemap"></i>Category Management</span>
         </a>
         <ul id="department" class="collapse" aria-labelledby="department" data-parent="#side-nav-accordion">
-          <li> <a href="{{url('categories')}}">Category List</a> </li>
+          <li> <a href="{{url('admin/categories')}}">Category List</a> </li>
         </ul>
-      </li>
+      </li> -->
       <!-- /Category -->
+
+
+      <!-- CMS -->
+       <li class="menu-item">
+          <a href="#"><span><i class="fas fa-user"></i>CMS</span></a>
+      </li>
+
+      <!-- CMS -->
+
+
       <!-- Schedule -->
      <!--  <li class="menu-item">
         <a href="#" class="has-chevron" data-toggle="collapse" data-target="#schedule" aria-expanded="false" aria-controls="schedule">

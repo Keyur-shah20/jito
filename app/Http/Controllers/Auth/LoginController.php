@@ -25,19 +25,19 @@ class LoginController extends Controller
                     $isPasswordMatched = \Hash::check($request->password, $user->password);
                     if ($isPasswordMatched) {
                         Auth::loginUsingId($user->id, $rememberMe);
-                        return redirect('/home');
+                        return redirect('/admin/home');
                     }
                 }
         } catch (\Exception $e) {
             Log::error(__CLASS__ . "::" . __METHOD__ . "  " . $e->getMessage() . "on line" . $e->getLine());
         }
-        return redirect('/login')->with('error_msg', $message);
+        return redirect('/admin/login')->with('error_msg', $message);
     }
 
 
     public function logoutUser(Request $request){
         Auth::logout();
-        return redirect('/login');
+        return redirect('/admin/login');
     }
 
 }

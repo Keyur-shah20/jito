@@ -36,7 +36,7 @@
 
         <h2 class="login-box-msg text-center">LOGIN</h2>
 
-        <form method="post" action="{{url('login')}}">
+        <form method="post" action="{{url('admin/login')}}">
             <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
             <div class="form-group has-feedback">
                 <input type="email" name="email" class="form-control" placeholder="Email" required>
@@ -56,7 +56,7 @@
             <div class="row">
                 <!-- /.col -->
                 <div class="col-xs-4 col-xs-offset-4 text-center">
-                    <a href="{{url('register')}}" style="font-size: 25px;" title="LOGIN">CLICK HERE TO SIGNUP</a>
+                    <a href="{{url('admin/register')}}" style="font-size: 25px;" title="LOGIN">CLICK HERE TO SIGNUP</a>
                 </div>
                 <!-- /.col -->
             </div>

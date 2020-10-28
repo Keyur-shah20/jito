@@ -36,7 +36,7 @@
 
         <h2 class="login-box-msg text-center">REGISTRATION</h2>
 
-        <form method="post" action="{{url('register')}}">
+        <form method="post" action="{{url('admin/register')}}">
             {{csrf_field()}}
             <div class="form-group has-feedback">
                 <input type="text" name="first_name" class="form-control" placeholder="First Name" value="{{old('first_name')}}">
@@ -72,7 +72,7 @@
             <div class="row">
                 <!-- /.col -->
                 <div class="col-xs-4 col-xs-offset-4 text-center">
-                    <a href="{{url('login')}}" style="font-size: 25px;" title="LOGIN">CLICK HERE TO LOGIN</a>
+                    <a href="{{url('admin/login')}}" style="font-size: 25px;" title="LOGIN">CLICK HERE TO LOGIN</a>
                 </div>
                 <!-- /.col -->
             </div>
